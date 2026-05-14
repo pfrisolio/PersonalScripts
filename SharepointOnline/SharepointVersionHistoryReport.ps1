@@ -3,17 +3,17 @@
 #and how much could be saved by trimming the versions
 
 #Set Variables
-$SharePointAdminSiteURL = "https://paulofadaquestlab-admin.sharepoint.com"
+$SharePointAdminSiteURL = "https://client-admin.sharepoint.com"
 $outputPath = "C:\SharePointAssessment"
 
 $reducedNumberOfVersions = 5
 $UsingInteractive = $false
 $UsingCertificate = $true
 
-$clientID = "1e1f165a-d8bf-4c35-9e31-58843e21ee2a"
-$tenantId = "paulofadaquestlab.onmicrosoft.com"
+$clientID = "xxxxxxxxxxxxxxxxxxxxxx"
+$tenantId = "tenant.onmicrosoft.com"
 
-$certificatePassword = "adaQuest@2026"
+$certificatePassword = "password"
 $certificatePath = "C:\SharePointAssessment\SharePoint Version History Assessment.pfx"
 
 # Ensure output folder exists
